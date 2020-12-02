@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shoppingList.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1 id="main-heading">Countdown Shopping List Link Generator</h1>
+    <form id="radio-div">
+        <input type="radio" name="super" id="cd" value="Countdown" checked onclick="headingGenerate(event)"> Countdown
+        <input type="radio" name="super" id="nw" value="New World" onclick="headingGenerate(event)"> New World
+    </form>
+    
+    <div class="container">
+        <div class="input">
+            <textarea name="shopping-list" id="shopping-list" cols="30" rows="30"></textarea>
+            <div class="buttons">
+                <button id="generate-button" onclick="generate()">Generate</button>
+                <button id="clear-button" onclick="clearArea()">Clear</button>
+            </div>
+        </div>
+
+        <div id="link-div" class="linkDiv">
+            
+        </div>
+    </div>
+
+    <script src="shoppingList.js"></script>
+</body>
+</html>

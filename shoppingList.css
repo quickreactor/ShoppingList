@@ -1,0 +1,30 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.input {
+    display: inline-flex;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.linkDiv {
+    padding-left: 50px;;
+}
+button {
+    font-family: 'Raleway', sans-serif;
+}
+textarea {
+    font-family: 'Raleway', sans-serif;
+}
+.buttons {
+    display: flex;
+}
+#generate-button {
+    width: 75%;
+}
+#clear-button {
+    width: 25%;
+}
